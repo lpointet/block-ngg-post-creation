@@ -13,7 +13,7 @@ if( !class_exists('BPC') ) {
 		/**
 		 * Register needed hooks.
 		 */
-		public function hooks() {
+		public static function hooks() {
 			add_action( 'init', array( __CLASS__, 'init' ) );
 		}
 
